@@ -1,0 +1,23 @@
+use std::fmt::Display;
+use crate::utils;
+
+fn solve1(input: String) -> impl Display {
+    "hi1"
+}
+
+fn solve2(input: String) -> impl Display {
+    "hi2"
+}
+
+fn solve3(input: String) -> impl Display {
+    "hi3"
+}
+
+pub fn solve(input: String, part: i32) -> String {
+    match part {
+        1 => {solve1(input).to_string()},
+        2 => {solve2(input).to_string()},
+        3 => {solve3(input).to_string()},
+        _ => {"invalid part".to_string()}
+    }
+}
