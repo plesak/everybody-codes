@@ -5,11 +5,11 @@ fn solve1(input: String) -> impl Display {
     "hi1"
 }
 
-fn solve2(input: String) -> impl Display {
+fn solve2(_input: String) -> impl Display {
     "hi2"
 }
 
-fn solve3(input: String) -> impl Display {
+fn solve3(_input: String) -> impl Display {
     "hi3"
 }
 

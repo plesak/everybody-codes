@@ -108,12 +108,6 @@ fn solve2(input: String) -> impl Display {
     count
 }
 
-// WORDS:THE,OWE,MES,ROD,RODEO
-//
-// HELWORLT
-// ENIGWDXL
-// TRODEOAL
-
 fn solve3(input: String) -> impl Display {
     let (words, sentences, lens, longest) = parse2(input);
     let nrows = sentences.len();
