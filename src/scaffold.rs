@@ -64,6 +64,15 @@ pub fn run(year: i32, quest: i32, part: i32, solve: bool) -> String {
         (2024, 3) => {
             quests::y2024::q3::solve(input, part)
         },
+        (2024, 4) => {
+            quests::y2024::q4::solve(input, part)
+        },
+        (2024, 5) => {
+            quests::y2024::q5::solve(input, part)
+        },
+        (2024, 6) => {
+            quests::y2024::q6::solve(input, part)
+        },
         _ => {
             format!("y{} q{} is not implemented yet!", year, quest)
         }
